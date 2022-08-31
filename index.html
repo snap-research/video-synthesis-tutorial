@@ -1,0 +1,165 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ECCV'22 Video Synthesis: Early Days and New Developments</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="page-top">
+ <div class="navbar-fixed" >
+    <nav class="teal lighten-2" role="navigation">
+      <div class="nav-wrapper" >
+        <ul class="center hide-on-med-and-down  nav navbar-nav navbar-center">
+          <li><a class="page-scroll" href="#page-top" style="color:#CD853F;font-size:20px">Home</a></li>
+          <li><a class="page-scroll" href="#overview" style="color:#CD853F;font-size:20px">Overview</a></li>
+          <li><a class="page-scroll" href="#organizer" style="color:#CD853F;font-size:20px">Organizers</a></li>
+          <li><a class="page-scroll" href="#schedule" style="color:#CD853F;font-size:20px">Program</a></li>
+          <li><a class="page-scroll" href="#speaker" style="color:#CD853F;font-size:20px">Speakers</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<div class="container">
+  <table border="0" align="center">
+    <tr>
+      <td width="700" align="center" valign="middle"><h3>ECCV 2022 Tutorial on</h3>
+      <span class="title">Video Synthesis: Early Days and New Developments</span></td>
+    </tr>
+  </table>
+        <!--h3 align="center">7:00~10:30 am (PDT), June 20, 2021</h3-->
+        <!--h3 colspan="3" align="center"><br> Slides and recorded videos will be provided on this webpage.</h3-->
+        <!-->
+        <!--h3 colspan="3" align="center"><br>The tutorial can be accessed at: <a a href=https://ohyay.co/s/cvpr-tutorial-on-unlocking-creativity> this URL </a>.
+        <br>
+        <!--Anyone can join! </h3-->
+
+        <!--h3 align="center">The recorded speeches are all available in this <a href=https://www.youtube.com/playlist?list=PLC3-gy3aKPTPbFAkm7anH5PnhLZdvNizZ> youtube playlist</a>!!</h3-->
+        <!--   <p><img src="figures/teaser.jpg" width="1000" align="middle" /></p> -->
+</div>
+
+</br>
+
+
+<div class="container" id="overview">
+  <h2>Overview</h2>
+    <div class="row">
+	    <div class="col-md-6 cl-sm-6">
+	    <video class="cam_video" width="480px" height="288px"  loop autoplay muted> <source src="videos/stylegan-v-trim.mp4" type="video/mp4"></video>
+	    </div>
+            <div class="col-md-6 cl-sm-6">
+	    <video class="img-responsive" width="480px" height="288px"  loop autoplay muted> <source src="videos/pe-crop.mp4" type="video/mp4"></video> </center>
+	    </div>
+	
+    </div>
+    <div class="row">
+	    <div class="col-md-6 cl-sm-6">
+	    <img class="img-responsive" style="width: 480px;height: 288px;" src="videos/flow-guided-crop.gif"></img>
+	    </div>
+             <div class="col-md-6 cl-sm-6">
+	     <video class="cam_video" style="width: 480px;height: 288px;"  loop autoplay muted> <source src="videos/mmvid-crop6.mp4" type="video/mp4"></video>
+	    </div>
+    </div>
+    <br/>
+
+    <div class="overview">
+    </br>
+      <p>The introduction of generative adversarial networks in 2014 had a profound impact on video synthesis. Initial works generated videos with plain backgrounds and simple motions. Image synthesis advanced quite rapidly over the years. Multiple works in video synthesis capitalized on this success. Various subfields of video synthesis were introduced: prediction, animation, retargeting, manipulation, and stylization. Many of them led to a number of practical applications, democratizing video editing for non-experienced users and sparking start-ups. With the introduction of language-based models, image-based diffusion and large-scale datasets, video synthesis is seeing substantial improvement, with students, researchers andpractitioners wanting to enter and contribute to the domain. Our tutorial will help them get the necessary knowledge, understand challenges and benchmarks, and choose a promising research direction. For practitioners, our tutorial will provide a detailed overview of the domain. We expect an attendee to have intermediate knowledge of CV & ML.</p>
+   </div>
+</div>
+
+</br>
+
+
+
+<div class="container" id="organizer">
+  <h2>Organizers</h2>
+    <div>
+
+      <div class="instructor">
+        <a href="http://www.stulyakov.com/">
+            <div class="instructorphoto"><img src="figures/sergey.jpg"></div>
+            <div>Sergey Tulyakov<br>Creative Vision, Snap Research<br><br></div>
+        </a>
+      </div>
+
+      <div class="instructor">
+          <a href="https://alanspike.github.io/">
+        <div class="instructorphoto"><img src="figures/jian.png"></div>
+        <div>Jian Ren<br>Creative Vision, Snap Research<br><br></div>
+        </a>
+      </div>
+
+      <div class="instructor">
+          <a href="https://stelat.eu/">
+        <div class="instructorphoto"><img src="figures/stephane.jpeg"></div>
+        <div>Stéphane Lathuilière<br>Télécom Paris<br></div>
+        </a>
+      </div>
+
+      <div class="instructor">
+          <a href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/">
+        <div class="instructorphoto"><img src="figures/Aliaksandr.jpeg"></div>
+        <div>Aliaksandr Siarohin<br>Creative Vision, Snap Research<br></div>
+        </a>
+      </div>
+    </div>
+
+    <p></p>
+</div>
+
+</br>
+
+
+<div class="container" id="schedule">
+  <h2>Preliminary Program</h2>
+    <div class="schedule">
+      </br>
+      <p style="font-size:20px"> <b>Preliminaries</b></p>
+      <p> Backbone architectures and frameworks that are necessary for further topics: GANs, diffusion, generative transformers, and quantized representations. </p>
+      <p style="float:right"><em>Stéphane Lathuilière</em></p>
+      </br>
+      <p style="font-size:20px"> <b>Unconditional, conditional synthesis and prediction</b></p>
+      <p> Early and recent frameworks for synthesizing frames from noise, actions, and images.</p>
+      <p style="float:right"><em>Sergey Tulyakov</em> </p>
+      <br/>
+      <p style="font-size:20px"> <b>Image animation</b></p>
+      <p> Methods for unsupervised and supervised animation. The former supports a variety of object categories, while the latter requires object-specific prior,
+          such as a morphable face or body model and 2D or 3D keypoints. </p>
+      <p style="float:right"> <em>Aliaksandr Siarohin, Jian Ren</em> </p>
+      <br/>
+      <p style="font-size:20px"> <b>New trends in video synthesis</b></p>
+      <p> Multimodal video synthesis: video synthesis methods conditioned on text, sketches, images, or other modalities. </p>
+      <p> Interactive video synthesis: a recently emerged group of works that enable user interaction while the video is being generated. </p>
+      <p style="float:right"><em>Jian Ren, Stéphane Lathuilière</em> </p>
+ 
+    </div>
+</div>
+
+</br>
+
+<div class="container" id='speaker'>
+  <h2>About the speakers</h2>
+    <div class="schedule">
+       <p><b>Sergey Tulyakov</b> is a Principal Research Scientist at Snap Inc, where he leads the Creative Vision team. His work focuses on creating methods for manipulating the world via computer vision and machine learning. This includes human and object understanding, photorealistic manipulation and animation, video synthesis, prediction and retargeting. He pioneered the unsupervised image animation domain with MonkeyNet and First Order Motion Model that sparked a number of startups in the domain. His work on Interactive Video Stylization received the Best in Show Award at SIGGRAPH Real-Time Live! 2020. He has published 30+ top conference papers, journals and patents resulting in multiple innovative products, including Snapchat Pet Tracking, OurBaby, Real-time Neural Lenses (gender swap, baby face, aging lens, face animation) and many others. Before joining Snap Inc., Sergey was with Carnegie Mellon University, Microsoft, NVIDIA. He holds a PhD degree from the University of Trento, Italy.</p>
+       <p><b>Jian Ren </b>  is a Research Scientist in the Creative Vision team at Snap Research. He got Ph.D. in Computer Engineering from Rutgers University in 2019. He is interested in image and video generation and manipulation, and efficient neural networks. Before joining Snap Inc, Jian did internships in Adobe, Snap, and Bytedance.</p> 
+        <p><b>Stéphane Lathuilière</b> is an associate professor (maître de conférence) at Telecom Paris, France, in the multimedia team. Until October 2019, he was a post-doctoral fellow at the University of Trento in the Multimedia and Human Understanding Group, led by Prof. Nicu Sebe and Prof. Elisa Ricci. He received the M.Sc. degree in applied mathematics and computer science from ENSIMAG, Grenoble Institute of Technology (Grenoble INP), France, in 2014. He completed his master thesis at the International Research Institute MICA (Hanoi, Vietnam). He worked towards his Ph.D. in mathematics and computer science in the Perception Team at Inria under the supervision of Dr. Radu Horaud, and obtained it from Université Grenoble Alpes (France) in 2018. His research interests cover machine learning for computer vision problems (eg. domain adaptation, continual learning) and deep models for image and video generation. He published papers in the most prestigious computer vision conferences (CVPR, ICCV, ECCV, NeurIPS) and top journals (T-PAMI).
+</p>
+       <p> <b>Aliaksandr Siarohin</b> is a Research Scientist working at Snap Research in the Creative vision team. Previously, he was a Ph.D Student at the University of Trento where he worked under the supervision of Nicu Sebe at the Multimedia and Human Understanding Group (MHUG). His research interests include machine learning for image animation, video generation, generative adversarial networks and domain adaptation. His works have been published in top computer vision and machine learning conferences. He also did internships at Snap Inc. and Google. He was a Snap Research Fellow of 2020. </p>
+
+    </div>
+</div>
+
+</br>
+
+<div class="containersmall">
+    <p>Please contact <a href="mailto:stulyakov@snap.com">Sergey Tulyakov (stulyakov@snap.com)</a> if you have question. The webpage template is by the courtesy of awesome <a href="https://gkioxari.github.io/">Georgia</a>.</p>
+</div>
+
+<!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
+</body>
+</html>
