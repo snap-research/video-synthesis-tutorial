@@ -204,4 +204,8 @@ table.psets {
   position: absolute; 
   left: 50%; 
   transform: translatex(-50%); 
+}
+
+table, th, td {
+  border: 1px solid gray;
 } 
